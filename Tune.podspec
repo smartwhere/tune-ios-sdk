@@ -4,12 +4,7 @@ Pod::Spec.new do |s|
   s.summary         = "iOS SDK for TUNE/Smartwhere platform."
   s.description     = "The TUNE SDK for iOS provides Attribution, Analytics, Push, and In-App Messaging capabilities."
   s.homepage        = "https://developers.tune.com/sdk/ios-quick-start/"
-  s.license         = {
-    :type => 'Copyright',
-    :text => <<-LICENSE
-     Copyright 2017 SmartWhere LLC. All rights reserved.
-     LICENSE
-  }
+  s.license         = {:type => 'BSD', :file => 'LICENSE'}
   s.author          = { "TUNE, Inc." => "support@tune.com" }
   s.source          = { :git => "https://github.com/smartwhere/tune-ios-sdk.git", :tag => s.version.to_s }
   s.ios.deployment_target     = "7.0"
