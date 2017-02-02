@@ -1,1 +1,1 @@
-# tune-ios-sdk
+# cocoapod2.0
