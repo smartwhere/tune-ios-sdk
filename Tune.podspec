@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author          = { "TUNE, Inc." => "support@tune.com" }
   s.source          = { :git => "https://github.com/smartwhere/tune-ios-sdk.git", :tag => s.version.to_s }
   s.ios.deployment_target     = "7.0"
-  s.ios.frameworks            = "AdSupport", "CoreSpotlight", "CoreLocation", "CoreBluetooth", "CoreTelephony", "iAd", "MobileCoreServices", "StoreKit", "SystemConfiguration", "UIKit"
+  s.ios.frameworks            = "AdSupport", "CoreSpotlight", "CoreLocation", "CoreTelephony", "iAd", "MobileCoreServices", "StoreKit", "SystemConfiguration", "UIKit"
   s.ios.preserve_paths        = "Tune.framework"
   s.ios.vendored_frameworks   = "Tune.framework"
   s.library                   = "z"
